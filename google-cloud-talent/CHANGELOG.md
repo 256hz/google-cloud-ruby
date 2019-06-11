@@ -1,5 +1,20 @@
 # Release History
 
+### 0.4.0 / 2019-06-11
+
+BREAKING CHANGE: Remove JobEventType::NOT_INTERESTED
+
+* Add Batch Jobs
+  * Add JobServiceClient#batch_create_jobs
+  * Add JobServiceClient#batch_update_jobs
+  * Add JobOperationResult and BatchOperationMetadata
+* Add JobEvent#profile
+* Add SkillProficiencyLevel::UNSKILLED
+* Remove JobEventType::NOT_INTERESTED
+* Add VERSION constant
+* Update ProfileServiceClient#search_profiles documentation
+* Replace incorrect return type HistogramQueryResult with SummarizedProfile
+
 ### 0.3.0 / 2019-05-10
 
 This is a breaking change.
